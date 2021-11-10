@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+
 
 function About(props) {
   // create state to hold about data
@@ -15,7 +16,7 @@ function About(props) {
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => getAboutData(), []);
+  useEffect(() => getAboutData(),[]);
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
