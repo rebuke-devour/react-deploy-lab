@@ -11,7 +11,7 @@ import Projects from "./pages/Projects";
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash
-  const URL = "https://app.netlify.com/sites/admiring-hermann-9371ae"
+  const URL = "https://e-r-lab.herokuapp.com"
 
   return (
     <div className="App">
